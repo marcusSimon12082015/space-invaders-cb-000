@@ -8,7 +8,7 @@ class Spaceship
     this.shields = shields;
     this.cloaked = false;
     this.warpDrive = "disengaged";
-    this.docked = crewMembers.length > 0 ? false : true;
+    this.docked = crew.length > 0 ? false : true;
     this.phasersCharge = "uncharged";
     for(var i = 0; i < this.crew.length; i++)
     {
